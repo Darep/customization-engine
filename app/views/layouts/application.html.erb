@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Generic theme demo</title>
+  <%= render 'partials/css', css: @css %>
+</head>
+<body>
+  <header class="site-head">
+    <div class="wrapper">
+      <h1 class="site-head__title site-branding">Theme demo</h1>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="wrapper">
+      <%= yield %>
+    </div>
+  </main>
+</body>
+</html>

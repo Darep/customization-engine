@@ -1,0 +1,10 @@
+Colors:
+  - name: Brand color
+    field: color-brand
+    type: color
+  - name: Text color
+    field: color-text
+    type: color
+  - name: Header title color
+    field: header-title-color
+    type: color

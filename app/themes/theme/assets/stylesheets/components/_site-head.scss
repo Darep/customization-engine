@@ -1,0 +1,12 @@
+.site-head {
+  background: $header-bg-color;
+  margin: 0 0 $base-line-height*3em;
+  padding: $base-line-height*3em 0;
+  text-align: center;
+}
+
+.site-head__title {
+  color: $header-title-color;
+  font-size: $header-font-size;
+  margin: 0;
+}
