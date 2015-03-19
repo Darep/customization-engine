@@ -7,14 +7,14 @@ Rails-based customization engine.
 
 Start the Rails server with:
 
-    $ rails s
+    rails s
 
 Open up a rails console session:
 
-    $ rails c
+    rails c
 
 Create an empty, dummy Customization with some settings:
 
-    > Customization.create(settings: { :'color-brand' => '#0076A0', :'color-text' => '#232326', :'header-title-color' => '#FFFFFF' })
+    Customization.create(settings: { :'color-brand' => '#0076A0', :'color-text' => '#232326', :'header-title-color' => '#FFFFFF' })
 
-Open http://localhost:3000/ and witness the customization working! Yay!
+Open [http://localhost:3000/](http://localhost:3000/) and witness the customization working! Yay!
