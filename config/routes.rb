@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
-  resources :customizations
+  namespace :api do
+    resources :customizations, only: [:index, :show, :create, :update, :destroy]
+    resources :themes, only: [:index, :show]
+  end
 
-  root 'welcome#index'
+  get '/demo' => 'welcome#index'
 end
