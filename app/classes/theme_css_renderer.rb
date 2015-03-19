@@ -55,9 +55,7 @@ class ThemeCssRenderer
     end
 
     def theme_settings
-      YAML.load_file(theme.settings_file)
-    rescue Errno::ENOENT
-      return []
+      theme.settings
     end
 
 end

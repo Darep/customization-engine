@@ -22,7 +22,7 @@ class WelcomeController < ApplicationController
     end
 
     def theme
-      Theme.new
+      Simple.new
     end
 
 end
