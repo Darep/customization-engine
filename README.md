@@ -1,7 +1,13 @@
 Customization engine
 ====================
 
-Rails-based customization engine.
+Theme customization engine demo built with Rails.
+
+
+### Understand
+
+Most of the heavy lifting is done in [app/classes/theme_css_renderer.rb](https://github.com/Darep/customization-engine/blob/master/app/classes/theme_css_renderer.rb), check that file out. It utilises the files of a simple demo theme in [app/themes](https://github.com/Darep/customization-engine/tree/master/app/themes). The actual customization settings are stored in the database as [Customization models](https://github.com/Darep/customization-engine/blob/master/app/models/customization.rb).
+
 
 ### Usage
 
